@@ -80,6 +80,15 @@ find
 
 splice, slice, concat, indexOf/lastIndexOf/include, map,
 sort(fn), reverse, split, join, reduce/reduceRight, array/isarray
+
+bind - нужен для вызова нужного контекста.
+bind возвращает функцию, а call сразу её вызывает.
+в apply доп. параметры передаются массивом.
+//
+
+//
+Прототипы
+
 //
 
 Асинхронный JS: Воркеры для создания нескольких потоков. Т.е. для запуска

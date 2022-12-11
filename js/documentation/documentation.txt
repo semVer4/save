@@ -84,6 +84,10 @@ sort(fn), reverse, split, join, reduce/reduceRight, array/isarray
 bind - нужен для вызова нужного контекста.
 bind возвращает функцию, а call сразу её вызывает.
 в apply доп. параметры передаются массивом.
+
+map - получение нового массива преобразовав все элементы. const people = [{name=, age=}]; people.map(person => person.name);
+filter - 
+findIndex - 
 //
 
 //

@@ -1,9 +1,12 @@
-const Test = function() {
-    const people = [
-        { name: "Maks", age: 15, budget: 1000 },
-        { name: "Nikita", age: 19, budget: 100000 },
-        { name: "Vova", age: 21, budget: 5000 },
-    ];
+const Test = function() { 
+    function sum(a, b, ...rest) {
+        return a + b + rest.reduce((total, numbers) => total + numbers, 0);
+    }
+
+    const numbers = [1, 2, 3, 4, 5];
+    console.log(sum(...numbers));
+
+    console.log(Math.max(...numbers));
 }
 
 export default Test;

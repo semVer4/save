@@ -13,9 +13,3 @@
     justify-content: space-between;
     align-items: center;
 }
-
-input {
-    border: 2px solid green;
-    border-radius: 5px;
-    margin: 0px 5px 0px 0px;
-}

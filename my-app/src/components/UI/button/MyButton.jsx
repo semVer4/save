@@ -1,9 +1,8 @@
 import classes from './MyButton.module.css';
 
 const MyButton = (props) => {
-    console.log(props);
     return (
-        <button props className={classes.myBtn}>
+        <button {...props} className={classes.myBtn}>
             {props.children}
         </button>
     );

@@ -1,11 +1,11 @@
 import PostItem from "./PostItem";
 
-const PostList = ({post, title, removePost}) => {
+const PostList = ({posts, title, remove}) => {
     return (
         <div>
             <h1>{title}</h1>
-            {post.map((posts, index) => 
-                <PostItem remove={removePost} number={index + 1} post={posts} key={posts.id} />
+            {posts.map((post, index) => 
+                <PostItem remove={remove} number={index + 1} post={post} key={posts.id} />
             )}
         </div>
     );

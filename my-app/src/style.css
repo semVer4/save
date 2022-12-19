@@ -3,6 +3,11 @@
     padding: 10px;
     box-sizing: border-box;
     max-width: 800px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+button {
+    background: none;
 }
 
 .post {

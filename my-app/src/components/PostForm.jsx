@@ -12,7 +12,14 @@ const PostForm = ({create}) => {
             id: Date.now(),
             ...posts
         }
-        create(newPost);
+        
+        posts.title === "" || posts.body === "" 
+            ? alert("Fill in form")
+            : create(newPost);
+    
+
+        posts.title = "";
+        posts.body = "";
     }
 
     return (

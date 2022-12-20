@@ -1,8 +1,8 @@
 import './style.css';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
-import MySelect from './components/UI/select/MySelect';
+import PostFilter from './components/PostFilter';
 
 function App() {
   const [posts, setPost] = useState([
@@ -10,8 +10,21 @@ function App() {
     { id: 2, title: "React",  body: "Best"},
     { id: 3, title: "Angular",  body: "New"}
   ]);
-  const [selectedSort, setSelectedSort] = useState("");
-  
+
+  const [filter, setFilter] = useState({sort: "", query: ""});
+
+  const sortedPosts = useMemo(() => {
+    if (filter.sort) {
+      return [...posts].sort((a, b) => a[filter.sort].localeCompare(b[filter.sort]));
+    } else {
+      return posts;
+    }
+  }, [filter.sort, posts]); 
+
+  const sortedAndSearchPosts = useMemo(() => {
+    return sortedPosts.filter(post => post.title.toLowerCase().includes(filter.query.toLowerCase()));
+  }, [filter.query, sortedPosts]);
+
   const createPost = (newPost) => {
     setPost([...posts, newPost]);
   }
@@ -20,28 +33,15 @@ function App() {
     setPost(posts.filter(p => p.id !== post.id));
   }
 
-  const sortPosts = (sort) => {
-    setSelectedSort(sort);
-    setPost([...posts].sort((a, b) => a[sort].localeCompare(b[sort])));
-  }
-
   return (
     <div className="App">
       <PostForm create={createPost} />
-      <div>
-        <MySelect 
-          value={selectedSort}
-          onChange={sortPosts}
-          defaultValue="Sort"
-          options={[
-            { value: "title", name: "Title" },
-            { value: "body", name: "Description" }
-          ]}
-        />
-      </div>
-      {posts.length < 1
+      <PostFilter
+      />
+
+      {sortedAndSearchPosts.length < 1
         ? <h1>Posts not exists</h1>
-        : <PostList remove={removePost} posts={posts} title="List posts" />
+        : <PostList remove={removePost} posts={sortedAndSearchPosts} title="List posts" />
       }
     </div>
   );

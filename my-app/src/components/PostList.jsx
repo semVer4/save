@@ -1,6 +1,10 @@
 import PostItem from "./PostItem";
 
 const PostList = ({posts, title, remove}) => {
+    if (posts.length < 1) {
+        return (<h1>Posts not exists</h1>)
+    }
+
     return (
         <div>
             <h1>{title}</h1>

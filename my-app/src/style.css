@@ -2,8 +2,12 @@
     margin: 0;
     padding: 10px;
     box-sizing: border-box;
-    max-width: 800px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
 }
 
 button {
@@ -13,7 +17,6 @@ button {
 .post {
     display: flex;
     border: 5px solid green;
-    width: 100%;
     margin: 5px;
     padding: 10px;
     justify-content: space-between;

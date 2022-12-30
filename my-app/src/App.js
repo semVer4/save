@@ -17,8 +17,8 @@ function App() {
 
   const sortedAndSearchPosts = usePosts(posts, filter.sort, filter.query);
   const [fetchPosts, isPostLoading, postError] = useFetching(async () => {
-    const posts = await PostService.getAll();
-    setPost(posts);
+    const response = await PostService.getAll();
+    setPost(response.data);
   });
 
   useEffect(() => {
@@ -48,7 +48,7 @@ function App() {
       />
 
       {postError &&
-        <h1>Server error!</h1>
+        <h1>error!</h1>
       }
 
       {isPostLoading

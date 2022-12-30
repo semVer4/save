@@ -5,6 +5,6 @@ export default class PostService {
         const linkPosts = "https://jsonplaceholder.typicode.com/posts";
 
         const response = await axios.get(linkPosts);
-        return response.data;
+        return response;
     }
 }

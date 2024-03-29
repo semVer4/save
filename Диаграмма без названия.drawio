@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T14:47:23.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="6m_85CjnWGYitwBYoLVA" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T20:12:12.603Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="lW4VQ-ADUgQHOGfcINbV" version="24.2.1" type="github">
   <diagram name="Страница 1" id="DrOhmFwWci-WvHgOT-uA">
     <mxGraphModel dx="1877" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WeAMB2Xln1dbpquulNk2-1" value="КРИПТА&lt;br&gt;(Без вложений)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WeAMB2Xln1dbpquulNk2-1" value="КРИПТА&lt;br&gt;(Без вложений)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WeAMB2Xln1dbpquulNk2-2" value="АРБИТРАЖ&lt;br&gt;ТРАФИКА" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WeAMB2Xln1dbpquulNk2-2" value="АРБИТРАЖ&lt;br&gt;ТРАФИКА" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WeAMB2Xln1dbpquulNk2-3" value="ПРОГРАММИРОВАНИЕ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WeAMB2Xln1dbpquulNk2-3" value="ПРОГРАММИРОВАНИЕ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="295" y="260" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WeAMB2Xln1dbpquulNk2-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WeAMB2Xln1dbpquulNk2-1">
+        <mxCell id="WeAMB2Xln1dbpquulNk2-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="WeAMB2Xln1dbpquulNk2-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="250" as="sourcePoint" />
             <mxPoint x="240" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WeAMB2Xln1dbpquulNk2-5" value="- AirDrop &lt;br&gt;(ретро, вайтлисты и т.п.)&lt;br&gt;&lt;br&gt;Слежка за проектами, инфлюенсерами" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WeAMB2Xln1dbpquulNk2-5" value="- AirDrop &lt;br&gt;(ретро, вайтлисты и т.п.)&lt;br&gt;&lt;br&gt;Слежка за проектами, инфлюенсерами" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-60" y="50" width="301" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WeAMB2Xln1dbpquulNk2-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WeAMB2Xln1dbpquulNk2-2">
+        <mxCell id="WeAMB2Xln1dbpquulNk2-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="WeAMB2Xln1dbpquulNk2-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="250" as="sourcePoint" />
             <mxPoint x="510" y="190" as="targetPoint" />
@@ -31,17 +31,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WeAMB2Xln1dbpquulNk2-7" value="Нарезки от блогеров, кино вырезки.&lt;br&gt;&lt;br&gt;Качество нарезок улучшить (субтитры и эффекты)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WeAMB2Xln1dbpquulNk2-7" value="Нарезки от блогеров, кино вырезки.&lt;br&gt;&lt;br&gt;Качество нарезок улучшить (субтитры и эффекты)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="150" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WeAMB2Xln1dbpquulNk2-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WeAMB2Xln1dbpquulNk2-3">
+        <mxCell id="WeAMB2Xln1dbpquulNk2-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="WeAMB2Xln1dbpquulNk2-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="250" as="sourcePoint" />
             <mxPoint x="220" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WeAMB2Xln1dbpquulNk2-9" value="Свой проект (и свой токен)&lt;br&gt;&lt;br&gt;Создание софтов для крипты (мб брать иностранные и переделывать)&lt;br&gt;&lt;br&gt;Создание сайтов (несколько акков фриланс)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WeAMB2Xln1dbpquulNk2-9" value="Свой проект (и свой токен)&lt;br&gt;&lt;br&gt;Создание софтов для крипты (мб брать иностранные и переделывать)&lt;br&gt;&lt;br&gt;Создание сайтов (несколько акков фриланс)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-60" y="220" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="PNSzFKYmy54RzqDEO5DT-1" value="&lt;h1&gt;&lt;b&gt;30.03.24&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="420" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
